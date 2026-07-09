@@ -61,8 +61,8 @@ if ('IntersectionObserver' in window && revealEls.length) {
       render(clean ? cleanHeights() : rawHeights());
       if (caption) {
         caption.textContent = clean
-          ? 'Leveled, de-noised, and balanced — the version listeners actually hear.'
-          : 'Raw recording — background noise, uneven levels, mic bumps.';
+          ? 'Leveled, de-noised, and balanced. This is the version listeners actually hear.'
+          : 'This is what comes in raw, before anything gets touched: background noise, uneven levels, the occasional mic bump.';
       }
     });
   });

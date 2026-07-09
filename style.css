@@ -1,5 +1,5 @@
 /* ============================================================
-   Jeline Joy Villagracia — Podcast Editor & Virtual Assistant
+   Jeline Joy Villagracia, Podcast Editor & Virtual Assistant
    Design tokens
    ============================================================ */
 :root{
@@ -261,7 +261,7 @@ p{ margin:0 0 1em; }
 .price-card .price small{ font-family:var(--body); font-size:0.8rem; font-weight:500; color:var(--ink-faint); }
 .price-card ul{ list-style:none; padding:0; margin:0 0 24px; flex:1; }
 .price-card ul li{ padding:8px 0; border-bottom:1px solid var(--line); font-size:0.9rem; color:var(--ink-soft); padding-left:20px; position:relative; }
-.price-card ul li::before{ content:"—"; position:absolute; left:0; color:var(--ink-faint); }
+.price-card ul li::before{ content:"•"; position:absolute; left:0; color:var(--ink-faint); }
 @media (max-width:920px){ .pricing-grid{ grid-template-columns:1fr; } }
 
 /* ---------- portfolio ---------- */
